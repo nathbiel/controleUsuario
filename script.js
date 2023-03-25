@@ -11,8 +11,8 @@ function calcularTotalPrico() {
 function verificarNumeroPar() {
   var n = document.getElementById("quantN").value;
   if(n % 2 === 0) {
-    alert("Par");
+    alert("O número " + n + " é par." );
   } else {
-    alert("Ímpar");
+    alert("Ímpar" + n + " é impar.");
   }
 }
