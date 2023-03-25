@@ -1,4 +1,4 @@
-function calcularTotalPrico() {
+function calcularTotalPreco() {
   var preco = document.getElementById("preco").value;
   var quant = document.getElementById("quantN").value;
   var total = preco * quant;
